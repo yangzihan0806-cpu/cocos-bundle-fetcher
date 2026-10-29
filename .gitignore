@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Never commit game data or run output
+output/
+bundle_roots/
+*_output/
+settings.js
+_download_report.txt
+_summary.json
+_meta.json
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
