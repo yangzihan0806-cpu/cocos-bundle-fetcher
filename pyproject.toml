@@ -1,0 +1,13 @@
+[project]
+name = "cocos-bundle-fetcher"
+version = "1.0.0"
+description = "Study tool for Cocos Creator remote Asset Bundles"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.33"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
